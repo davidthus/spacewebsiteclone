@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 function crew() {
   return (
-    <div>crew</div>
+    <>
+    <h1>crew</h1>
+    </>
   )
 }
 

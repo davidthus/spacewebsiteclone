@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 function destination() {
   return (
-    <div>D</div>
+    <>
+      <h1>destination</h1>
+    </>
   )
 }
 

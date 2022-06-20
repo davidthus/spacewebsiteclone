@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 function technology() {
   return (
-    <div>technology</div>
+    <>
+      <h1>technology</h1>
+    </>
   )
 }
 
