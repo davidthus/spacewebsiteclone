@@ -1,9 +1,12 @@
-
+import Image from "next/image";
+import background from "/public/crew/background-crew-desktop.jpg";
 
 function crew() {
   return (
     <>
-    <h1>crew</h1>
+    <div className="fullviewport -z-10">
+      <Image src={background} alt="background image" layout="fill" objectFit="cover" />
+    </div>
     </>
   )
 }

@@ -12,7 +12,7 @@ function Header() {
           <Image src={Logo} width={48} height={48} alt="logo" className="z-50" />
         </a></Link>
       </div>
-      <ul className='w-[62vw] h-[10vh] flex items-center backdrop-blur-[100px] px-28 gap-4'>
+      <ul className='w-[62vw] h-[10vh] flex items-center backdrop-blur-[80px] bg-light/5 px-28 gap-4'>
         <li className={`${router.pathname == "/" ? "active navitemactive" : "naviteminactive"}`}>
           <Link href="/"><a className="navlink"><span className='font-bold mx-[7px]'>00</span>HOME</a></Link>
         </li>
